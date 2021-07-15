@@ -5,13 +5,17 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color:black ;
 }
 
-
+img {
+  border-radius: 50%;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
+.background-img {
+background-image: url("https://cutewallpaper.org/21/purple-flower-desktop-background/Purple-Flower-Wallpaper-for-iPhone-77-images-.jpg");
+}
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
@@ -91,3 +95,28 @@ body {
     margin-top: 7rem;
   }
 }
+.container-ttt {
+    width:50%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.tile-ttt {
+    width:23%;
+    padding:5%;
+}
+
+.right-ttt {
+    border-right: 1px solid black;
+}
+
+.bottom-ttt {
+    border-bottom: 1px solid black;
+}
+
+
+
+﻿
+
+﻿
+​
