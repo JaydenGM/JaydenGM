@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="Prodject.css" rel="stylesheet">
+
     <script src="Prodject.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +30,7 @@
 
       <style>
         .bd-placeholder-img {
-          font-size: 1.125rem;
+          font-size: 2.125rem;
           text-anchor: middle;
           -webkit-user-select: none;
           -moz-user-select: none;
@@ -42,12 +42,13 @@
             font-size: 3.5rem;
           }
         }
-        
+
       </style>
 
 
       <!-- Custom styles for this template -->
       <link href="carousel.css" rel="stylesheet">
+<link href="Prodject.css" rel="stylesheet">
     </head>
     <body>
 
@@ -59,13 +60,13 @@
 
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="#Aboutme">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Prodjects</a>
+              <a class="nav-link" href="#prodjectsec">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              <a class="nav-link active" href="#Contact" tabindex="-1" aria-disabled="true">Contact</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -76,13 +77,14 @@
   </header>
 
   <main>
-<div class="background-img"
+    <div class="background-img">
     <div id="myCarousel"  data-bs-ride="carousel">
       </div>
       <div class="carousel-inner">
 
-        <img src="https://cutewallpaper.org/21/purple-flower-desktop-background/Purple-Flower-Wallpaper-for-iPhone-77-images-.jpg" height="400" width="1200">
+
     <div class="carousel-item">
+
 
 
 
@@ -92,9 +94,7 @@
 
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+
             </div>
           </div>
         </div>
@@ -103,9 +103,6 @@
 
           <div class="container">
             <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
             </div>
           </div>
         </div>
@@ -124,10 +121,11 @@
         <div class="col-lg-4">
           <svg class="bd-placeholder-img rounded-circle" width="140" height="140"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
            <div class=class="bd-placeholder-img rounded-circle">
-            <img src="https://i.imgur.com/rPPzmDy.jpg"  width="140" height="200" >
+            <img src="https://i.imgur.com/rPPzmDy.jpg"id="profile"  width="140" height="200" style="align-content:Center">
           </div>
           <h2>This is me</h2>
-          <p>My name is Jayden and I am your average highschool student from Warren Central Highschool</p>
+          <p>My name is Jayden and I am your average high school student from Warren Central Highschool</p>
+
         </div>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -136,10 +134,10 @@
       <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
-
+</div>
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">My time at Nextech Catapult<span class="text-muted"> It’ll blow your mind.</span></h2>
+          <h2 class="featurette-heading" id="Aboutme">My time at Nextech Catapult<span class="text-muted"> It’ll blow your mind.</span></h2>
           <p class="lead">I have a limited amount of knowledge when it comes to coding but Nextech has helped expand that knowledge. Not only knowledge has been added though many friendships have formed from the unique individuals I have had the honor of meeting due to this program. In my opinion its a perfect mix of fun and learnign  and I'd recommend it to anyone who is interested in the tech field. </p>
         </div>
         <div class="col-md-5">
@@ -152,13 +150,13 @@
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">New coding langueges added<span class="text-muted"> See for yourself.</span></h2>
-          <p class="lead">With a new beginning in the coding field since the introductions of Javascript, Css, and Html. I had managed to figure out how to make a tic-tac-toe game due to the help that I have recieved and I'm proud that I even managed to create it.</p>
+          <h2 class="featurette-heading" id="prodjectsec">New coding langueges added<span class="text-muted"> See for yourself.</span></h2>
+          <p class="lead">With a new beginning in the coding field since the introductions of Javascript, Css, and Html. I had managed to figure out how to make a tic-tac-toe game due to the help that I have recieved and I'm proud that I even managed to create it. This game is only the beginning of what the future could possibly hold for me in my carrer.</p>
         </div>
         <div class="col-md-5 order-md-1">
           <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
             <div class="container-ttt">
-
+             <div class="row1">
             <div id="tile1" class="tile-ttt right-ttt bottom-ttt">
                 <button id="button1">Tile 1</button>
             </div>
@@ -168,6 +166,8 @@
             <div id="tile3" class="tile-ttt bottom-ttt">
                 <button id="button3">Tile 3</button>
             </div>
+          </div>
+           <div class="row2">
             <div id="tile4" class="tile-ttt right-ttt bottom-ttt">
                 <button id="button4">Tile 4</button>
             </div>
@@ -177,6 +177,8 @@
             <div id="tile6" class="tile-ttt bottom-ttt">
                 <button id="button6">Tile 6</button>
             </div>
+            </div>
+             <div class="row3">
             <div id="tile7" class="tile-ttt right-ttt">
                 <button id="button7">Tile 7</button>
             </div>
@@ -186,6 +188,7 @@
             <div id="tile9" class="tile-ttt">
                 <button id="button9">Tile 9</button>
             </div>
+          </div>
         </div>
         <button id="reset">Reset </button>
 
@@ -197,11 +200,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, If you wish to contact me<span class="text-muted">.</span></h2>
+          <h2 class="featurette-heading" id="Contact">And lastly, If you wish to contact me I'm always availiable on my email therealjaydok@gmail.com<span class="text-muted">.</span></h2>
           <p class="lead">Here you go, </p>
         </div>
         <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><img src="https://getwemail.io/app/uploads/2020/10/gifs-in-email.gif">
 
         </div>
       </div>
