@@ -124,7 +124,9 @@ background-image: url("https://cutewallpaper.org/21/purple-flower-desktop-backgr
 .row3 {
   display: flex;
 }
-
+.lead {
+  font-size: 20px;
+}
 
 ﻿
 
